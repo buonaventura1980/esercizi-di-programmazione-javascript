@@ -18,3 +18,8 @@
   http://www.imparareaprogrammare.it
 */
 var cats = 44;
+var row = 6;
+var out1 = Math.ceil(cats/row);
+var out2 = cat%row;
+console.log(out1);
+console.log(out2);
